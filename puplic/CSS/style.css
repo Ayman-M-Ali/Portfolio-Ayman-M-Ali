@@ -236,7 +236,7 @@ nav ul li a:hover::before {
   margin-top: 30px;
 }
 .landing img {
-  width: 60%;
+  width: 40%;
   border-radius: 50%;
 }
 @media (max-width: 767px) {
@@ -262,11 +262,11 @@ nav ul li a:hover::before {
     line-height: 2;
     margin-top: 20px;
   }
-  .landing .container img {
-    width: 40%;
-  }
 }
-@media (max-width: 992px) {
+@media (min-width: 768px) and (max-width: 992px){
+  .landing {
+    padding: 100px 0;
+  }
   .landing .container div > span {
     font-size: 18px;
   }
@@ -347,7 +347,7 @@ nav ul li a:hover::before {
     gap: 40px;
   }
 }
-@media (max-width: 992px) {
+@media (min-width: 768px) and (max-width: 992px) {
   .container h2 {
     font-size: 32px;
   }
