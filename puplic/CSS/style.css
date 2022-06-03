@@ -238,20 +238,11 @@ nav ul li a:hover::before {
 .landing img {
   width: 40%;
   border-radius: 50%;
-  /* position: relative; */
 }
-/* .landing img::before {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 50px;
-  height: 50px;
-  -webkit-border-radius: 50%;
-  border-radius: 50%;
-  background: #F9C449;
-} */
 @media (max-width: 767px) {
+  .landing {
+    height: 125vh;
+  }
   .landing .container {
     flex-direction: column;
     justify-content: flex-start;
@@ -279,6 +270,10 @@ nav ul li a:hover::before {
   }
 }
 @media (max-width: 992px) {
+  .landing {
+    height: 120vh;
+    padding: 160px 0;
+  }
   .landing .container div > span {
     font-size: 18px;
   }
