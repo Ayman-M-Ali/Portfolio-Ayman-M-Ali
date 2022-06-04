@@ -120,9 +120,6 @@ header ul {
     width: 100%;
     background-color:rgb(73 72 72 / 70%);
   }
-  header nav .toggle-menu:hover + ul li {
-    padding: 15px;
-  }
 }
 header ul li {
   position: relative;
@@ -265,7 +262,7 @@ header ul li a:hover::before {
   }
   .landing .container > div {
     width: 100%;
-    margin-top: 200px;
+    margin-top: 150px;
     line-height: 2.5;
   }
   .landing span:last-of-type::before {
