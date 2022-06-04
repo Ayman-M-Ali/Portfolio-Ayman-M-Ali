@@ -109,7 +109,7 @@ header ul {
 @media (max-width: 767px) {
   header nav ul {
     display: none;
-    min-height: 40vh;
+    min-height: 50vh;
   }
   header nav .toggle-menu:hover + ul {
     display: flex;
@@ -147,6 +147,7 @@ header ul li:hover::before {
   left: 0;
 }
 header ul li a {
+  display: flex;
   height: 80px;
   align-items: center;
   position: relative;
