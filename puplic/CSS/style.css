@@ -195,10 +195,10 @@ header ul li a:hover::before {
 /* Start Landing Page */
 .landing {
   background: var(--backgroundColor);
-  /* height: 100vh; */
 }
 .landing .container {
   min-height: 100vh;
+  padding-top: 100px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -259,6 +259,8 @@ header ul li a:hover::before {
   .landing .container {
     flex-direction: column;
     justify-content: flex-start;
+    padding-top: 10px;
+    padding-bottom: 100px;
   }
   .landing .container > div {
     width: 100%;
